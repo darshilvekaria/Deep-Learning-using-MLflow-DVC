@@ -1,0 +1,26 @@
+tensorflow==2.12.0
+pandas 
+gdown
+dvc
+mlflow==2.2.2
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyYAML
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+scipy
+Flask
+Flask-Cors
+
+# run this manually to setup the package by running setup.py and treating src/ as the root for packages
+# pip install -e .
+
+# if this is part of requirement.txt then make sure that there is one .egg-info file in project directory
+# -e .
+# to delete egg-info maunally, one need to run this in cmd:
+# del /s /q *.egg-info
