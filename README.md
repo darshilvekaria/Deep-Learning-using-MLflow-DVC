@@ -11,3 +11,32 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the dvc.yaml
+
+
+
+## MLflow
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+- [MLflow tutorial](https://youtube.com/playlist?list=PLkz_y24mlSJZrqiZ4_cLUiP0CBN5wFmTb&si=zEp_C8zLHt1DzWKK)
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=uri link \
+MLFLOW_TRACKING_USERNAME=username \
+MLFLOW_TRACKING_PASSWORD=token \
+python script.py
+
+Run this to export as env variables:
+
+```powershell
+
+$env:MLFLOW_TRACKING_URI = "link"
+$env:MLFLOW_TRACKING_USERNAME = "username"
+$env:MLFLOW_TRACKING_PASSWORD = "token"
+
+```

@@ -16,6 +16,7 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
+python-dotenv
 
 # run this manually to setup the package by running setup.py and treating src/ as the root for packages
 # pip install -e .
