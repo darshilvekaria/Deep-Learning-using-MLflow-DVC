@@ -44,3 +44,13 @@ dvc commands:
     dvc init
     dvc repro
     dvc dag
+
+reference links:
+    for html template:
+        https://getbootstrap.com/
+
+    for image conversion:
+        https://base64.guru/
+            image to base64: https://base64.guru/converter/encode/image
+            base64 to image: https://base64.guru/converter/decode/image
+        
