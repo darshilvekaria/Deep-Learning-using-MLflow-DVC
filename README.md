@@ -40,3 +40,7 @@ $env:MLFLOW_TRACKING_USERNAME = "username"
 $env:MLFLOW_TRACKING_PASSWORD = "token"
 
 ```
+dvc commands:
+    dvc init
+    dvc repro
+    dvc dag
